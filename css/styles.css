@@ -1,0 +1,48 @@
+body {
+    font-family: 'Bebas Neue';
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.header {
+    background-color:honeydew;
+}
+
+.blog-header {
+    margin-top: 10rem;
+    max-width: 700px;
+}
+
+.blog-header p {
+    font-family: sans-serif;
+}
+
+@media (max-width: 768px) {
+    .blog-header {
+        margin-top: 8rem;
+    }
+}
+
+.food-container {
+    padding: 20px;
+}
+
+.card {
+    width: 500px;
+}
+
+.card-text {
+    padding-top: 1rem;
+}
+
+.footer {
+    background-color: honeydew;
+}
+
+.footer-section .float-right {
+    float: right;
+}
